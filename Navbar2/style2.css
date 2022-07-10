@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+
+*{ 
+    margin:0px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    object-fit: contain;
+}
+
+.currency{
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    background-color: #f8f8f8;
+
+}
+
+.dollar{
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(40, 14, 143);
+    color: rgb(40, 14, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+}
+.euro{
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(193, 45, 12);
+    color: rgb(193, 45, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+}
+.ruble{
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(3, 207, 218);
+    color: rgb(3, 207, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+}
+.tl{
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(255, 78, 8);
+    color: rgb(255, 78, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 35px;
+
+}
+
+.dollar:hover{
+background: rgb(40, 14, 143);
+color: #ffff;
+transition: .2s ease-in;
+
+
+}
+.euro:hover{
+    background :rgb(193, 45, 12) ;
+    color: #ffff;
+    transition: .1s ease-in;
+    
+}
+.ruble:hover{
+    background:rgb(3, 207, 218) ;
+    color:#ffff;
+    transition: .1s ease-in;
+    
+}
+.tl:hover{
+    background:rgb(255, 78, 8);
+    color: #ffff;
+    transition: .1s ease-in;    
+  
+}
+ .nav-links{
+    display: flex;
+    background-color: #da0000;
+    height: 61px;
+    justify-content: space-around;
+    
+ }
+.collapse{
+    display: flex;
+    
+}
+
+ a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 18px;
+    margin-right: 5px;
+    border-bottom: 2px solid transparent;
+ }
+
+ .nav-links a:hover{
+    border-bottom: 3px solid #ffff;
+    transition: .1s;
+ }
+  i{
+    color: rgb(252, 251, 251);
+    font-size: 13px;
+  }
+  .nav-links :nth-child(12){
+    margin-left: 30px;
+  }
